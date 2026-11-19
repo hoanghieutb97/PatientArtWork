@@ -1,0 +1,72 @@
+[
+  {
+    "name": "OA-1M",
+    "productType": "Custom Shape Acrylic Ornament",
+    "variant": "*/ONE SIDE",
+    "cols": 1,
+    "rows": 2,
+    "groups": [
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    ],
+    "cells": {
+      "1,1": {
+        "name": "KHUNG",
+        "color": "#ffffff",
+        "mirror": true
+      },
+      "1,2": {
+        "name": "TRUOC",
+        "color": "#ff0000",
+        "mirror": true
+      }
+    }
+  },
+  {
+    "name": "OA-2M",
+    "productType": "Custom Shape Acrylic Ornament",
+    "variant": "*/TWO SIDES",
+    "cols": 1,
+    "rows": 3,
+    "groups": [
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    ],
+    "cells": {
+      "1,1": {
+        "name": "KHUNG",
+        "color": "#ffffff",
+        "mirror": true
+      },
+      "1,2": {
+        "name": "TRUOC",
+        "color": "#ff0000",
+        "mirror": true
+      },
+      "1,3": {
+        "name": "SAU",
+        "color": "#00fffb"
+      }
+    }
+  }
+]

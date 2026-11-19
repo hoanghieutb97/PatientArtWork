@@ -1,0 +1,30 @@
+{
+  "name": "patient-art-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n db,web -c green,blue \"npm run db\" \"next dev --turbopack\"",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint",
+    "db": "json-server --watch data/db.json --port 3006"
+  },
+  "dependencies": {
+    "next": "15.5.29",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sharp": "^0.33.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "concurrently": "^8.2.2",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.29",
+    "json-server": "^0.17.4",
+    "typescript": "^5"
+  }
+}
